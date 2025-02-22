@@ -88,3 +88,10 @@ print(round(3.14))
 print(abs(-3))
 # 2의 3제곱
 print(pow(2, 3))
+
+apple = 2
+banana = 3
+cranberry = 1
+detox = (banana ** 2 - 4 * apple * cranberry)
+print('답이 1인데 오답으로 나와서 검증용 코드')
+print(detox)
