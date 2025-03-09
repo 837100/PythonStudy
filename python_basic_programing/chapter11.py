@@ -1,6 +1,7 @@
 import math
 from math import sin
 
+
 # dir(math)
 # help(math.gamma)
 
@@ -11,10 +12,10 @@ class Cone:
         self.h = height
 
     def get_vol(self):
-        return 1 / 3 * math.pi * self.r**2 * self.h
+        return 1 / 3 * math.pi * self.r ** 2 * self.h
 
     def get_surf(self):
-        return math.pi * self.r**2 + math.pi * self.r * self.h
+        return math.pi * self.r ** 2 + math.pi * self.r * self.h
 
 
 # math 모듈
