@@ -12,7 +12,7 @@ def is_prime(x):
 
 prime_count = 0 
 
-for i in range(2, 50001):
+for i in range(1, 1000):
     if is_prime(i): 
         prime_count = prime_count + 1
         print(i, end = ", ")
